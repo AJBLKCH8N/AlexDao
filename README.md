@@ -8,7 +8,9 @@ So first, what youre going to want to do is:
  a) Create a Metamask wallet (install this in your browser as a browser extension):
  i) go to this link: https://metamask.io/ 
  ii) Download and install Metamask
- iii) Once metamask is installed, 
+ iii) Once metamask is installed, select the Goerli Test Network from the drop down as per below (you may need to go to settings and unhide other networks)
+ ![image](https://user-images.githubusercontent.com/35590284/202651176-50f4f740-7d55-4dc7-b19f-d162766d1836.png)
+
  
 
  
