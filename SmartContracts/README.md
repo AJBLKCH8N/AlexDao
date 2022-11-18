@@ -1,8 +1,12 @@
 #Smart Contract Folder
 the DAO.SOl smart contract allows for token holders (NFT Holders) to create and vote on submitted proposals.
-This version is based on the project tutorial by MoralisWeb3.
+
 
 This project utilises the Moralis Web3 suite and Web3API to integrate the front end to the Polygon chain. 
+
+
+UPDATE: MORALIS API Suite is now depreciated
+
 
 Future Releases:
 a. To apply use case to real world application of the Rotary Club and its members:
