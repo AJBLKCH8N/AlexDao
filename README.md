@@ -1,3 +1,27 @@
+**** INSTRUCTIONS FOR ALEX*****\
+
+
+Since youre going to create a brand new front end, you can ignore everything except for 'SmartContracts' folder.
+
+PRELIMINARY REQUIREMENTS:
+So first, what youre going to want to do is:
+ a) Create a Metamask wallet (install this in your browser as a browser extension):
+ i) go to this link: https://metamask.io/ 
+ ii) Download and install Metamask
+ iii) Once metamask is installed, 
+ 
+
+ 
+ deploy the Smart Contract to 
+
+
+
+
+
+
+
+
+
 #Smart Contract Folder
 the DAO.SOl smart contract allows for token holders (NFT Holders) to create and vote on submitted proposals.
 This version is based on the project tutorial by MoralisWeb3.
