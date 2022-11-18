@@ -46,13 +46,36 @@ ETHERSCANNER
  **_DISCLAIMER - this is a long winded way of doing all of this, but basically, hardhat and/or truffle will do alllllll of this for us... however there is a learning curve for it (not too hard); we can run through this when youre ready. Hardhat is my tool of choice tbh... and once you build your contract it generates the ABI and also acn deploy it to Ethereum or the testnets easily from the commandline. (you can even spin up a test blockchian)_**
 
 
+**OK So how the heck do i integrate with the front end????**
+Ok so now is the interesting part. you will need Ethers.js: https://docs.ethers.io/v5/ , your smart contract address, your smart contract methods, and your smart contract ABI to interact with the smart contract for the front end....
+
+here are some tips:
+
+1) instantiate the Ethers.js Client or in this case, use metamask wallet provider:
+
+const provider = new ethers.providers.Web3Provider(window.ethereum)
+await provider.send("eth_requestAccounts", []);
+const signer = provider.getSigner() 
+
+2)Connect to a contract object
+
+const daoAddress = "dai.tokens.ethers.eth";
+const daiAbi = [
+  // Some details about the token
+  "function name() view returns (string)",
+  "function symbol() view returns (string)",
+];
+
+// The Contract object
+const daiContract = new ethers.Contract(daiAddress, daiAbi, provider);
+
+3) wrap some methodxs from C/ONTRACT
 
 
 
 
 
-
-
+_________________________________________________________________________________________________________________________________________________
 #Smart Contract Folder
 the DAO.SOl smart contract allows for token holders (NFT Holders) to create and vote on submitted proposals.
 This version is based on the project tutorial by MoralisWeb3.
